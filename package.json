@@ -1,0 +1,22 @@
+{
+  "name": "betterconsole",
+  "version": "1.0.0",
+  "description": "Simple, zero-config console logger with colours.",
+  "author": "Adam K Dean <adamkdean@googlemail.com>",
+  "license": "GPL-3.0",
+  "keywords": [
+    "logger",
+    "console",
+    "betterconsole",
+    "logging",
+    "chalk"
+  ],
+  "type": "module",
+  "main": "console.js",
+  "exports": {
+    ".": "./console.js"
+  },
+  "dependencies": {
+    "chalk": "^5.5.0"
+  }
+}
