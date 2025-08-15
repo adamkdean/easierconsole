@@ -1,5 +1,5 @@
 {
-  "name": "betterconsole",
+  "name": "easierconsole",
   "version": "1.0.0",
   "description": "Simple, zero-config console logger with colours.",
   "author": "Adam K Dean <adamkdean@googlemail.com>",
@@ -7,7 +7,7 @@
   "keywords": [
     "logger",
     "console",
-    "betterconsole",
+    "easierconsole",
     "logging",
     "chalk"
   ],

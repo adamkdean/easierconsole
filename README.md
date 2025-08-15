@@ -1,4 +1,4 @@
-**betterconsole** is a drop-in replacement for Node.js’ built-in `console` with timestamps and colourful log levels.
+**easierconsole** is a drop-in replacement for Node.js’ built-in `console` with timestamps and colourful log levels.
 It’s a simple, zero-config upgrade that makes your logs more readable without changing how you write them.
 
 <img width="776" height="256" alt="Image" src="https://github.com/user-attachments/assets/6e7b8d53-9945-40db-89a1-b06229453827" />
@@ -6,7 +6,7 @@ It’s a simple, zero-config upgrade that makes your logs more readable without 
 ## Installation
 
 ```bash
-npm install betterconsole
+npm install easierconsole
 ```
 
 ## Quick Start
@@ -14,8 +14,8 @@ npm install betterconsole
 Replace the global console in your app:
 
 ```js
-import { console as betterConsole } from 'betterconsole'
-global.console = betterConsole
+import { console as easierconsole } from 'easierconsole'
+global.console = easierconsole
 
 console.info('Server listening on port 3000')
 console.error('Something went wrong')
@@ -24,7 +24,7 @@ console.error('Something went wrong')
 Or import and use directly without touching the global:
 
 ```js
-import { console } from 'betterconsole'
+import { console } from 'easierconsole'
 
 console.debug('Debug message here')
 console.info('Some information here')
